@@ -43,3 +43,95 @@ body {
 /* 
     START WRITING YOUR CSS CODE HERE
 */
+
+.header {
+  overflow: hidden;
+  background-color: #c5e6e1;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-links {
+  float: left;
+  font: 18px, Helvetica, Arial, sans-serif;
+  color:#63de86;
+  padding: 12px;
+  text-decoration: underline;
+}
+
+.active {
+  color: blue;
+  background-color: lightblue;
+}
+
+.header-right {
+  float: right;
+  margin-top: 12px;
+}
+
+
+.left-col {
+  float: left;
+  width: 75%;
+}
+
+.card {
+  background-color: tan;
+  margin: 20px;
+  padding: 20px;
+}
+
+.right-col {
+  float: left;
+  width: 25%;
+  background-color: green;
+  padding-left: 20px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    .header-links {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .active {
+      color: blue;
+      background-color: lightblue;
+    }
+    .header-right {
+      float: none;
+      margin-top: 12px;
+      text-align: center;
+      color: grey;
+    }
+    .left-col {
+      float: left;
+      width: 100%
+    }
+    .card {
+      background-color: tan;
+      margin: 20px;
+      padding: 20px;
+      font-size: 30px;
+    }
+    .right-col {
+      float: left;
+      width: 100%;
+      background-color: green;
+      padding-left: 20px;
+    }
+  }
+}
