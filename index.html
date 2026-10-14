@@ -3,91 +3,102 @@
 	<head>
 		<title>Tech Influencer</title>
 		<link rel="stylesheet" href="css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 
-	<body>	
+	<body>
 
-		<!-- ****** START HEADER ****** -->
-		<a href="index.html"><img id="logo" src="images/logo.png" alt="Tech Influencer Logo"></a>
+		<div class = "header">
+			<!-- ****** START HEADER ****** -->
+			<a href="index.html"><img id="logo" src="images/logo.png" alt="Tech Influencer Logo"></a>
 
-		<a href="index.html">Home</a>
-		<a href="#">Posts</a>
-		<!-- ****** END HEADER ****** -->
+			<div class = "header-right">
+				<a class = "active header-linhref="index.html">Home</a>
+				<a href="#" class = "header-links">Posts</a>
+			</div>
+			<!-- ****** END HEADER ****** -->
+		</div>	
 
+		<div class = "left-col">
+			<div class = "card">
+				<!-- ****** START MAIN CONTENT BOX (JANE DOE INTRO) ****** -->
+				<h2>
+					I'm <span class="emphasis">Jane Doe</span>, a <span class="emphasis">technical</span> guru and <span class="emphasis">influencer</span>.
+				</h2>
+				
+				<img id="intro-img" src="images/computer-typing.jpeg">
+				
+				<p>
+					I am a programmer. I make the computer <strong class="emphasis">beep boop beep</strong>.
+				</p>
+				
+				<p>
+					As a programmer, I am a sort of a <em>techincal guru</em> that can make the computer perform any tasks I want it to. With all the skills I have learned in my programming career, I have decided to share my work and lifestyle with the world! I have coined the term <strong class="emphasis">technical influencer</strong> to best describe myself.
+				</p>
 
+				<p>
+					Want to learn more about me? Explore all my creative and technical musings scattered throughout my influencer site!
+				</p>
+				<!-- ****** END FIRST MAIN CONTENT BOX (JANE DOE INTRO) ****** -->
+			</div>
 
-		<!-- ****** START MAIN CONTENT BOX (JANE DOE INTRO) ****** -->
-		<h2>
-			I'm <span class="emphasis">Jane Doe</span>, a <span class="emphasis">technical</span> guru and <span class="emphasis">influencer</span>.
-		</h2>
+			<div class = "card">
+				<!-- ****** START MAIN CONTENT BOX (POST) ****** -->
+				<a href="#"><h2>Designing Website Layouts</h2></a>
+				
+				<h5>
+					Unravel the web of <strong class="emphasis">frightful</strong> layouts and design a <strong class="emphasis">spooktacular</strong> website! Let the <strong class="emphasis">skeletons</strong> in your CSS closet inspire a <strong class="emphasis">boo</strong>-tiful layout, Oct 31, 2023
+				</h5>
+
+				<p>
+					Today, we're brewing up some CSS magic and celebrating Halloween in style by creating our first spooky web layout. Grab your cauldron of creativity because this one's going to be a bewitching ride!
+				</p>
+
+				<p>
+					CSS, the magical toolkit of web design, lets you summon layouts in various styles - from a single-column incantation for a minimalist look, to a two-column charm for balance, and a three-column enchantment for complexity. You'll learn how to craft these spells and make them responsive, ensuring your designs cast their magic seamlessly across devices. Happy haunting and crafting! 🎃👻
+				</p>
+				<!-- ****** END FIRST MAIN CONTENT BOX (POST) ****** -->
+			</div>
+		</div>
 		
-		<img id="intro-img" src="images/computer-typing.jpeg">
-		
-		<p>
-			I am a programmer. I make the computer <strong class="emphasis">beep boop beep</strong>.
-		</p>
-		
-		<p>
-			As a programmer, I am a sort of a <em>techincal guru</em> that can make the computer perform any tasks I want it to. With all the skills I have learned in my programming career, I have decided to share my work and lifestyle with the world! I have coined the term <strong class="emphasis">technical influencer</strong> to best describe myself.
-		</p>
+		<div class = "right-col">
+			<div class = "card">
+				<!-- ****** START RIGHT CONTENT BOX (ABOUT) ****** -->
+				<h2>About Me</h2>
 
-		<p>
-			Want to learn more about me? Explore all my creative and technical musings scattered throughout my influencer site!
-		</p>
-		<!-- ****** END FIRST MAIN CONTENT BOX (JANE DOE INTRO) ****** -->
+				<img id="about-img" src="images/blogging.png">
+
+				<p><br />I am a programmer. I make the computer beep boop beep.</p>
+				<!-- ****** END RIGHT CONTENT BOX (ABOUT) ****** -->
+			<div>
 
 
-
-		<!-- ****** START MAIN CONTENT BOX (POST) ****** -->
-		<a href="#"><h2>Designing Website Layouts</h2></a>
-		
-		<h5>
-			Unravel the web of <strong class="emphasis">frightful</strong> layouts and design a <strong class="emphasis">spooktacular</strong> website! Let the <strong class="emphasis">skeletons</strong> in your CSS closet inspire a <strong class="emphasis">boo</strong>-tiful layout, Oct 31, 2023
-		</h5>
-
-		<p>
-			Today, we're brewing up some CSS magic and celebrating Halloween in style by creating our first spooky web layout. Grab your cauldron of creativity because this one's going to be a bewitching ride!
-		</p>
-
-		<p>
-			CSS, the magical toolkit of web design, lets you summon layouts in various styles - from a single-column incantation for a minimalist look, to a two-column charm for balance, and a three-column enchantment for complexity. You'll learn how to craft these spells and make them responsive, ensuring your designs cast their magic seamlessly across devices. Happy haunting and crafting! 🎃👻
-		</p>
-		<!-- ****** END FIRST MAIN CONTENT BOX (POST) ****** -->
+			<div class = "card">
+				<!-- ****** START RIGHT CONTENT BOX (POSTS) ****** -->
+				<h2>Popular Posts</h2>
+				
+				<ul>
+					<li><a href="#">Designing Website Layouts</a></li>
+				</ul>
+				<!-- ****** END RIGHT CONTENT BOX (POSTS) ****** -->
+			</div>
 
 
-
-		<!-- ****** START RIGHT CONTENT BOX (ABOUT) ****** -->
-		<h2>About Me</h2>
-
-		<img id="about-img" src="images/blogging.png">
-
-		<p><br />I am a programmer. I make the computer beep boop beep.</p>
-		<!-- ****** END RIGHT CONTENT BOX (ABOUT) ****** -->
-
-
-
-		<!-- ****** START RIGHT CONTENT BOX (POSTS) ****** -->
-		<h2>Popular Posts</h2>
-		
-		<ul>
-			<li><a href="#">Designing Website Layouts</a></li>
-		</ul>
-		<!-- ****** END RIGHT CONTENT BOX (POSTS) ****** -->
-
-
-
-		<!-- ****** START RIGHT CONTENT BOX (FOLLOW) ****** -->
-		<h2>Follow Me</h2>
-		
-		<a href="#"><img class="img-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png"></a>
-
-		<a href="#"><img class="img-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"></a>
-
-		<a href="#"><img class="img-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png?20220821125553"></a>
-
-		<a href="#"><img class="img-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1024px-YouTube_full-color_icon_%282017%29.svg.png"></a>
-		<!-- ****** END RIGHT CONTENT BOX (FOLLOW) ****** -->
+			<div class = "card">
+				<!-- ****** START RIGHT CONTENT BOX (FOLLOW) ****** -->
+				<h2>Follow Me</h2>
 			
+				<a href="#"><img class="img-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png"></a>
+
+				<a href="#"><img class="img-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"></a>
+
+				<a href="#"><img class="img-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png?20220821125553"></a>
+
+				<a href="#"><img class="img-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1024px-YouTube_full-color_icon_%282017%29.svg.png"></a>
+			
+				<!-- ****** END RIGHT CONTENT BOX (FOLLOW) ****** -->
+			</div>
+		</div>
 
 
 	</body>
